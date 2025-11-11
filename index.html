@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TargetShot - Aim & Fire Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div class="score-display">
+                <span class="label">Score:</span>
+                <span id="score">0</span>
+            </div>
+            <div class="timer-display">
+                <span class="label">Time:</span>
+                <span id="timer">30</span>
+            </div>
+        </div>
+        
+        <div id="game-area" class="game-area">
+            <div class="start-screen" id="start-screen">
+                <h1>🎯 TargetShot</h1>
+                <p>Aim & Fire Game</p>
+                <button id="start-btn" class="btn-primary">Start Game</button>
+                <div class="instructions">
+                    <h3>Instructions:</h3>
+                    <ul>
+                        <li>Click on targets to shoot them</li>
+                        <li>+1 point for each hit</li>
+                        <li>-1 point for each miss</li>
+                        <li>Game lasts 30 seconds</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="game-over-screen" id="game-over-screen" style="display: none;">
+                <h1>Game Over!</h1>
+                <div class="final-score">
+                    <h2>Your Score: <span id="final-score">0</span></h2>
+                </div>
+                <div class="leaderboard">
+                    <h3>🏆 Leaderboard</h3>
+                    <div id="leaderboard-list"></div>
+                </div>
+                <button id="restart-btn" class="btn-primary">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
