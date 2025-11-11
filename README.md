@@ -6,6 +6,12 @@ A fast, single-screen tap-to-shoot game built with HTML, CSS, and JavaScript.
 
 Targets (UFOs 👾, balloons 🎈, or monsters 👹) appear randomly on the screen, and you tap/click them to shoot. Every hit gives +1 point; every missed tap subtracts 1 point. The game ends after 30 seconds, then shows the score leaderboard.
 
+## 🎮 Play Online
+
+**[Play the game live here!](https://suraj991.github.io/TargetShot/)** 🎯
+
+*(Note: Make sure GitHub Pages is enabled in repository settings)*
+
 ## 🚀 How to Play
 
 1. Click "Start Game" to begin
